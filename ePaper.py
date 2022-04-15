@@ -514,7 +514,6 @@ def draw():
 	# Portrait
 	epd = EPD_2in9_Portrait()
 	epd.Clear(0xff)
-
 	epd.fill(0xff)
 	epd.text("Waveshare", 5, 10, 0x00)
 	epd.text("Pico_ePaper-2.9", 5, 40, 0x00)
